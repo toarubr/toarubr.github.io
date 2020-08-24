@@ -228,3 +228,13 @@ body {
 	border-bottom: 5px solid var(--main-bg-color);
 	border-top: 5px solid var(--main-bg-color);
 }
+
+#blog-pager {
+    text-align: center;
+}
+#blog-pager-older-link {
+    float: right;
+}
+#blog-pager-newer-link {
+    float: left;
+}
