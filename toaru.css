@@ -270,3 +270,13 @@ body {
 	margin-right: 10px;
 }
 
+.btn-outline-danger {
+    color: var(--main-bg-color) !important;
+    border-color: var(--main-bg-color) !important;
+}
+
+.btn-outline-danger:hover {
+    background: var(--main-bg-color) !important;
+    border-color: var(--main-bg-color) !important;
+    color: white;
+}
