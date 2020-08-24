@@ -1,17 +1,8 @@
-    function OuterHTML(element) {
-        var container = document.createElement("div");
-        container.appendChild(element.cloneNode(true));
+var imagens = $(".corpopost a").filter(':has(img)');
+for (var i = 0; i < imagens.length; i++) {
+    imagens[i].removeAttribute("href");
 
-        return container.innerHTML;
-    }
-
-	  var imagens = $(".separator").filter(':has(a)');
-
-      for(var i=0;i<imagens.length;i++){
-
-      imagens[i].innerHTML = OuterHTML(imagens[i].children[0].children[0]);
-
-      }
+}
 
 var makeCRCTable = function(){
 var c;
