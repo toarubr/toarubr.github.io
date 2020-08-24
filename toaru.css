@@ -1,3 +1,5 @@
+
+
 :root {
 	--main-bg-color: #f26d7d;
 	/*#df3152;*/
@@ -96,8 +98,8 @@ body {
 }
 
 .post-body {
-	padding: 5px;
-	font-size: 1.25em;
+	/*padding: 5px;
+	font-size: 1.25em;*/
 }
 
 .blog-sidebar {
@@ -186,7 +188,7 @@ body {
 	margin: 0;
 }
 
-.separator img {
+.corpopost img {
 	max-width: 95%;
 	height: auto;
 }
@@ -230,11 +232,41 @@ body {
 }
 
 #blog-pager {
-    text-align: center;
+	text-align: center;
 }
+
 #blog-pager-older-link {
-    float: right;
+	float: right;
 }
+
 #blog-pager-newer-link {
-    float: left;
+	float: left;
 }
+
+.postimagem {
+	display: inline;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	max-width: 95%;
+	height: auto;
+}
+
+.corpopost {
+	padding: 10px;
+}
+
+.corpopost a {
+	margin: 0 !important;
+}
+
+.disqusbotao {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.imagemperfil {
+	float: left;
+	margin-right: 10px;
+}
+
