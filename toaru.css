@@ -278,5 +278,14 @@ body {
 .btn-outline-danger:hover {
     background: var(--main-bg-color) !important;
     border-color: var(--main-bg-color) !important;
-    color: white;
+    color: white !important;
+}
+
+.btn-outline-danger:active {
+    background: var(--main-bg-color) !important;
+    border-color: var(--main-bg-color) !important;
+    color: white !important;
+}
+.btn-outline-danger:focus {
+    box-shadow:none !important;
 }
