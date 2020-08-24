@@ -169,7 +169,7 @@
                         <div class='clear'/>
                      </b:includable>
                    <b:includable id='post' var='post'>
-                        <div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+                        <article class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
                            <b:if cond='data:post.firstImageUrl'>
                               <meta expr:content='data:post.firstImageUrl' itemprop='image_url'/>
                            </b:if>
@@ -250,7 +250,7 @@
                                  </div>
                               </b:if>
                            </b:if>
-                        </div>
+                        </article>
                         <b:if cond='data:blog.pageType == &quot;item&quot;'>
                            <script>
 							function mostra_disqus(){var t,e;t=document,(e=t.createElement(&quot;script&quot;)).src=&quot;https://toaru.disqus.com/embed.js&quot;,e.setAttribute(&quot;data-timestamp&quot;,+new Date),(t.head||t.body).appendChild(e)}
