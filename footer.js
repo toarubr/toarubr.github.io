@@ -4,9 +4,12 @@ for (var i = 0; i < imagens.length; i++) {
 
 }
 
-$(window).on('resize',function(){
-  if($(".phantom").css("visibility") == "visible"){
+$(window).on('resize',function(){ 
+  
+  if(window.getComputedStyle(document.getElementsByClassName("phantom")[0]).getPropertyValue('visibility') == "visible"){
+  if(window.getComputedStyle(document.getElementsByClassName("blog-sidebar")[0]).getPropertyValue('position') != "fixed"){
 $(".sidebtn").click();
 }
+  }
+  
 });
-            
