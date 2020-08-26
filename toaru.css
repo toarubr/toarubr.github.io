@@ -359,3 +359,7 @@ body {
 	overflow: scroll;
 }
 
+.twitter-tweet {
+    margin: 0 auto;
+    width: 80% !important;
+}
