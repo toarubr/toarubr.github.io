@@ -1,17 +1,16 @@
 /* Variable definitions
    ====================
-   <Variable name="bgcolor" description="Background color" type="font" default="%23f26d7d"/>
+   <Variable name="bgcolor" description="Background color" type="font" default="%2344756d" value="%2344756d"/>
 
   */
 
 
-
 :root {
-	--main-bg-color: #f26d7d;
+	--main-bg-color: #44756d;
 	/*#df3152;*/
 	/*#ffb7c5;*/
-	--main-sub-color: #f26d7d;
-	--main-bghover-color: #db556e;
+	--main-sub-color: #4db0a1;
+	--main-bghover-color: #4db0a1;
 }
 
 .main-body {
@@ -303,60 +302,8 @@ body {
 	box-shadow: none !important;
 }
 
-@media only screen and (max-width: 767px) {
-	.column.col-md-3.blog-sidebar {
-		position: fixed !important;
-		right: 0;
-		top: 0;
-		border-radius: 0;
-		margin: 0;
-		padding: 0;
-		padding-left: 0px;
-		border: 0;
-		height: 100%;
-		padding-left: 10px;
-		width: 85%;
-		max-width: 100%;
-	}
-}
-
-.sidebtn {
-	width: 42px;
-	display: block !important;
-	margin-top: 10px;
-	margin-right: 10px;
-	float: right;
-	height: 42px;
-	font-size: 1em !important;
-}
-
-@media only screen and (min-width: 768px) {
-	.column.col-md-3.blog-sidebar {
-		display: block;
-	}
-	.sidebtn {
-		display: none !important;
-	}
-}
-
 .collapsing {
 	transition: none !important;
-}
-
-.phantom {
-	visibility: hidden;
-	width: 100%;
-	height: 100%;
-	background: #fff9;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 0;
-}
-
-.blog-sidebar {
-	z-index: 1;
-	overflow: scroll;
 }
 
 .twitter-tweet {
