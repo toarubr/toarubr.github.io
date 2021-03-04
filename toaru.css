@@ -1,16 +1,17 @@
+
+
 /* Variable definitions
    ====================
-   <Variable name="bgcolor" description="Background color" type="font" default="%2344756d" value="%2344756d"/>
+   <Variable name="bgcolor" description="Background color" type="font" default="%23ffb7c5" value="%23ffb7c5"/>
 
   */
 
-
 :root {
-	--main-bg-color: #44756d;
+	--main-bg-color: #ff5677;
 	/*#df3152;*/
 	/*#ffb7c5;*/
-	--main-sub-color: #4db0a1;
-	--main-bghover-color: #4db0a1;
+	--main-sub-color: #ffb7c5;
+	--main-bghover-color: #ffb7c5;
 }
 
 .main-body {
@@ -307,6 +308,21 @@ body {
 }
 
 .twitter-tweet {
-    margin: 0 auto;
-    width: 80% !important;
+	margin: 0 auto;
+	width: 80% !important;
+}
+
+.navbar {
+	background-image: url(https://data.toaru.com.br/toaru_logo.png);
+	background-position: 0;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+
+.navbar img {
+	visibility: hidden;
+}
+
+.divider-vertical {
+	width: 40px;
 }
